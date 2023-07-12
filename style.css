@@ -1,0 +1,68 @@
+/* Create a CSS style that changes the background color of a paragraph to blue and the text color to white.  */
+
+body {
+  background-color: blueviolet;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+h1 {
+  color: white;
+}
+
+p {
+  color: blue;
+}
+
+/* Create a CSS style that adds a border around an image when it is hovered over.  */
+
+img:hover {
+  margin: 24px 24px;
+  padding: 12px;
+  border: 4px solid white;
+}
+
+/* Create a CSS style that centers a div horizontally on the page */
+
+.class {
+  padding: 44px;
+  background-color: hotpink;
+  height: 60px;
+  width: 60px;
+  margin: auto;
+}
+
+/* Create a CSS style that makes all the links in a page have a different text color and underline when hovered over */
+
+.link-tags {
+  margin: 100px auto;
+  display: flex;
+  flex-direction: row;
+  gap: 44px;
+}
+
+a {
+  font-size: 24px;
+  text-decoration: none;
+  color: gold;
+  text-align: center;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Create a CSS style that sets the font size of all headings to 24 pixels and the font family to Arial.  */
+
+.css-font {
+  /* color: aqua; */
+}
+
+.font {
+  color: aqua;
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+}
